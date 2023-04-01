@@ -36,6 +36,38 @@ body {
 
 }
 
+.content {
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.content h1 {
+  color: green;
+  font-weight: lighter;
+  margin: 5px;
+}
+
+.content p {
+  color: gray;
+  font-size: large;
+}
+
+a {
+  background-color: aliceblue;
+  padding: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
 @media (max-width: 1200px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -74,36 +106,4 @@ body {
   .banner {
     background-image: url('bg.jpg');
 }
-}
-
-.content {
-  text-align: center;
-  width: 100%;
-  margin: 20px;
-  border-radius: 4px;
-  padding: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-}
-
-.content h1 {
-  color: green;
-  font-weight: lighter;
-  margin: 5px;
-}
-
-.content p {
-  color: gray;
-  font-size: large;
-}
-
-a {
-  background-color: aliceblue;
-  padding: 8px;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: black;
-  color: white;
 }
