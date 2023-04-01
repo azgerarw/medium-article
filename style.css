@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.banner {
+  background-image: url('bg.jpg');
+  background-size: 100%;
+  width: 100%;
+  height: 300px;
+  border: 2px none;
+  height: 300px;
+  text-align: center;
+}
+
+.title h1 {
+  color: white;
+  font-weight: lighter;
+}
+
+.title h2 {
+  color: gainsboro;
+  font-weight: 100;
+}
+
+.title {
+  padding-top: 80px;
+}
+
+.container {
+  margin: 40px auto;
+  width: 900px;
+
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+  .banner {
+    background-image: url('205416.jpg');
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .banner {
+    background-image: url('425241.jpg');
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .banner {
+    background-image: url('1309408.jpg');
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.content {
+  text-align: center;
+
+  margin: 20px;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.content h1 {
+  color: green;
+  font-weight: lighter;
+  margin: 5px;
+}
+
+.content p {
+  color: gray;
+  font-size: large;
+}
+
+a {
+  background-color: aliceblue;
+  padding: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
